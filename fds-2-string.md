@@ -394,8 +394,20 @@ function maxLength(str){
 
 문자열 `s`과 자연수 `n`을 입력받아, `s`의 첫 `n`개의 문자만으로 이루어진 새 문자열을 반환하는 함수를 작성하세요.
 
+for, filter join
 
 
+```
+const returnWord = (str, num) => {
+  let newStr = '';
+  for(let i =0; i<num; i++){
+    newStr += str[i];
+  }
+  return newStr;
+}
+
+returnWord('banana', 3);
+```
 
 
 
@@ -412,6 +424,28 @@ Camel case의 문자열을 입력받아, snake case로 바꾼 새 문자열을 �
 
 
 
+```
+const camelToSnake = (str) => {
+  let newStr = '';
+  let arr = [];
+  
+  for(let k=0; k<str.length; k++){
+    arr.push(str[k]);
+  }
+  
+  for(let i=0; i<arr.length; i++){
+    if(arr[i] !== arr[i].toLowerCase()){
+      arr[i] = arr[i].replace(arr[i], arr[i].toLowerCase());
+      console.log(arr[i]);
+      arr[i-1] = arr[i-1].toString() + '_';
+    }
+  }
+  newStr = arr.join('');
+  return newStr;
+}
+
+camelToSnake('elementIsHidden');
+```
 
 
 
