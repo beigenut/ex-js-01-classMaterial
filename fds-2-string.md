@@ -27,7 +27,7 @@ function insensitiveEqual(x, y){
 
 
 
-
+<br></br>
 ### 문제 2
 ____
 ____
@@ -79,7 +79,7 @@ function pad(str, num){
 
 
 
-
+<br></br>
 ### 문제 3
 
 _____
@@ -128,7 +128,7 @@ function cntVowel(str){
 
 
 
-
+<br></br>
 ### 문제 4
 
 ________
@@ -167,7 +167,7 @@ _____
 
 
 
-
+<br></br>
 ### 문제 5
 ____
 ____
@@ -176,7 +176,7 @@ ____
 
 
 
-## 1번 풀이 ##
+#### 1번 풀이 ####
 ____
 
 ```
@@ -189,7 +189,7 @@ function palindrome(str){
 }
 ```
 
-## 2번 풀이 ##
+#### 2번 풀이 ####
 ____
 
 ```
@@ -202,7 +202,7 @@ function isPalidrome(str){
 
 
 
-
+<br></br>
 ### 문제 6
 ________
 ____
@@ -234,7 +234,7 @@ function sliceLetter(str){
 
 
 
-
+<br></br>
 ### 문제 7
 ____
 ____
@@ -268,7 +268,7 @@ removeDup('tomato');
 
 
 
-
+<br></br>
 ### 문제 8
 ____
 ____
@@ -279,7 +279,7 @@ ____
 - `split` 메소드를 이용해서 풀어보세요.
 
 
-## 풀이 1번 ##
+#### 풀이 1번 ####
 ____
 
 ```
@@ -300,7 +300,7 @@ function replaceStar(str){
 
 
 
-## 풀이 2번 ##
+#### 풀이 2번 ####
 ____
 
 ```
@@ -319,7 +319,7 @@ function replaceStar(str){
 
 
 
-
+<br></br>
 ### 문제 9
 ____
 ____
@@ -345,7 +345,7 @@ function letterCaseTranslate(str){
 
 
 
-
+<br></br>
 ### 문제 10
 ____
 ____
@@ -371,6 +371,8 @@ function myFunction(str){
 
 
 
+
+<br></br>
 ### 문제 11
 ____
 ____
@@ -378,7 +380,7 @@ ____
 문자열을 입력받아, 문자열 안에 들어있는 단어 중 가장 긴 단어를 반환하는 함수를 작성하세요. (문자열에 개행이 없다고 가정합니다.)
 
 
-## 1번 풀이 ##
+#### 1번 풀이 ####
 ____
 ```
 function maxLength(str){
@@ -398,7 +400,7 @@ function maxLength(str){
 }
 ```
 
-## 2번 풀이 ##
+#### 2번 풀이 ####
 ____
 ```
 function maxLength(str){
@@ -414,7 +416,7 @@ function maxLength(str){
 
 
 
-
+<br></br>
 ### 문제 12
 ____
 ____
@@ -443,7 +445,7 @@ returnWord('banana', 3);
 
 
 
-
+<br></br>
 ### 문제 13
 ____
 ____
@@ -481,8 +483,7 @@ camelToSnake('elementIsHidden');
 
 
 
-
-
+<br></br>
 ### 문제 14
 ____
 ____
@@ -518,7 +519,7 @@ snakeToCamel('js_fucekd_up');
 
 
 
-
+<br></br>
 ### 문제 15
 ____
 ____
@@ -568,7 +569,7 @@ LET'S TEST IT
 
 
 
-
+<br></br>
 ### 문제 16
 
 ____
@@ -609,7 +610,7 @@ const pwr = (num) => {
 
 
 
-
+<br></br>
 ### 문제 17
 
 ____
